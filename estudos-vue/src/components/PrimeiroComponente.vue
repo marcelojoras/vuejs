@@ -1,6 +1,8 @@
 <template>
-    <h1>Olá Vue!</h1>
-    <p>Meu nome é: {{nome}}</p>
+    <div>
+        <h1>Olá Vue!</h1>
+        <p>Meu nome é: {{nome}} e trabalho como {{profissao}}</p>
+    </div>
 </template>
 
 <script>
@@ -8,7 +10,8 @@
         name: 'PrimeiroComponente',
         data() {
             return {
-                nome: 'Marcelo'
+                nome: 'Marcelo',
+                profissao: 'Programador'
             }
         }
     }
