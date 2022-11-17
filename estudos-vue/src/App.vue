@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header/>
+    <Header :esta_logado="true"/>
     <PrimeiroComponente/>
     <p class="paragrafo-pai">Minha string é: {{teste}}</p>
     <LifeCycle/>
